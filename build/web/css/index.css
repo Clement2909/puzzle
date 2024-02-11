@@ -1,0 +1,97 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+        h1{
+            color: #007bff;
+        }
+        h2 {
+            color: #007bff;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #matrixOutput {
+            margin-top: 20px;
+        }
+
+        #matrixTable {
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        #matrixTable td {
+            border: 1px solid #ddd;
+            padding: 0px;
+            text-align: center;
+        }
+
+        #swapSection {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #swapSection label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        #gameInfo {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #gameResult {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        #puzzleImage {
+            max-width: 100%;
+            max-height: 200px;
+            position: relative;
+        }
+
+        .imageWrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .matrixOverlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 6px;
+        }
+            .selected {
+            border: 6px solid black;
+        }
+        
+        #imageList img.selected {
+    border: 4px solid black; /* Ajouter une bordure noire autour de l'image sélectionnée */
+}
+
+
+
+
